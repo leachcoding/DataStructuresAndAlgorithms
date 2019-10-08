@@ -12,3 +12,16 @@ function longestString(arr) {
   return longest;
   console.log(longest);
 }
+
+
+// v1.0 for loop
+// function longestString(arr) {
+// 	let result = '';
+// 	for(let index = 0; index < arr.length; index++) {
+// 	  let currentItem = arr[index];
+// 		if(currentItem.length > result.length) {
+// 			result = arr[index];
+// 		}
+// 	}
+// 	return result;
+// }
