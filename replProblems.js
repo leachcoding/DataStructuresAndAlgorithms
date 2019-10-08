@@ -25,3 +25,16 @@ function longestString(arr) {
 // 	}
 // 	return result;
 // }
+
+
+// // v1.1 for loop, declaring variables first
+// function longestString(arr) {
+// 	let currentItem, index, result = '';
+// 	for(index = 0; index < arr.length; index++) {
+// 	  currentItem = arr[index];
+// 		if(currentItem.length > result.length) {
+// 			result = arr[index];
+// 		}
+// 	}
+// 	return result;
+// }
